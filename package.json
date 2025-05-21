@@ -1,0 +1,28 @@
+{
+  "name": "dummy-grpahql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@apollo/server": "^4.12.1",
+    "@as-integrations/express4": "^1.0.0",
+    "@as-integrations/express5": "^1.0.0",
+    "body-parser": "^2.2.0",
+    "cores": "^0.8.5",
+    "crypto": "^1.0.1",
+    "express": "^5.1.0",
+    "graphql": "^16.11.0",
+    "graphql-scalars": "^1.24.2",
+    "graphql-tag": "^2.12.6",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.0",
+    "nodemon": "^3.1.10"
+  }
+}
