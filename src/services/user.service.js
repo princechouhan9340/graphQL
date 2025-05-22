@@ -1,6 +1,8 @@
-const { verifyPassword, hashPassword } = require("../../crypto/crypto");
+const { verifyPassword, hashPassword } = require("../crypto/crypto");
 const User = require("../model/user.model");
 const jwt = require('jsonwebtoken');
+const mongoose = require('mongoose');
+const objectId = mongoose.Types.ObjectId;
 
 const SECRET_KEY = 'your_secret_key';
 
@@ -27,9 +29,9 @@ async function getUsers(){
     }
 }
 
-async function getUser(email) {
+async function getUser(_id) {
     try {
-        const user = await User.findOne({ email });
+        const user = await User.findOne({ _id: new objectId(_id) });
         if (!user) {
             throw new Error("User not found");
         }

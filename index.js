@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const graphqlServer = require('./src/graphQl');
 const { expressMiddleware } = require("@as-integrations/express5");
-const { decodeJWTToken } = require('./src/graphQl/services/user.service');
+const { decodeJWTToken } = require('./src/services/user.service');
 
 const startServer = async () => {
     const app = express();

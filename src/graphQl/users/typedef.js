@@ -12,7 +12,7 @@ export const typeDefs = `
         token: String!
     }
 
-    type DeleteUser {
+    type Delete {
         message: String!
     }
 `

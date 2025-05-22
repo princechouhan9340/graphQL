@@ -8,10 +8,7 @@ export const typeDefs = `
         content: String!
         author: User!
         createdAt: Date!
+        likes: Like!
+        comments: [Comments!]!
     }
-
-    type DeletePost {
-        message: String!
-    }
-
 `
