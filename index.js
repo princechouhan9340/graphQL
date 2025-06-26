@@ -33,7 +33,7 @@ const startServer = async () => {
     });
 
     const PORT = process.env.PORT || 4000;
-    const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://writer:weFpnETyqS@176.57.184.23:27017/graphqlTest?authSource=graphqlTest';
+    const MONGODB_URI = process.env.MONGODB_URI || '';
 
     mongoose.connect(MONGODB_URI, {
         useNewUrlParser: true,
