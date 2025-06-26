@@ -112,7 +112,7 @@ This project is licensed under the [ISC License](https://opensource.org/licenses
 
 ## 🙋‍♂️ Author
 
-Your Name – Prince chouhan
+Name – Prince chouhan
 GitHub – [@prince_chouhan]([https://github.com/your-username](https://github.com/princechouhan9340))
 
 ---
